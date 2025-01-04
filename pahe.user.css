@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name           Pahe Amoled
+@namespace      https://github.com/InternetNinjo/UserCSS
+@version        1.1.0
+@description    Just a small modification to Pahe.
+@author         InternetNinja
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("pahe.ink") {
+    body {
+        background-color: #000 !important;
+    }
+
+    :root {
+        --color-1: #000;
+        --color-2: #000;
+        --color-3: #000;
+    }
+}
+
