@@ -1,0 +1,186 @@
+/* ==UserStyle==
+@name           Facebook Amoled
+@namespace      userstyles.world/user/InternetNinjo
+@author         InternetNinja
+@description    Turns Facebook into an Amoled experience.
+@version        20241227.2.0
+@preprocessor   uso
+==/UserStyle== */
+@-moz-document domain("facebook.com")
+{
+.__fb-light-mode {
+--primary-text: #e4e6eb;
+--primary-icon: #e4e6eb;
+--web-wash: #000000;
+--nav-bar-background: #0000007a;
+--surface-background: #00000000;
+--secondary-button-background: rgba(255,255,255,.1);
+--secondary-icon: #b0b3b8;
+--comment-background: #151515;
+--secondary-text: #b0b3b8;
+--secondary-button-text: #e4e6eb;
+--popover-background: #181818c2;
+--divider: #3030308c;
+--card-background: #000;
+--footer-branch: #181818bf;
+--card-background-dos: #0000009e;
+--cometa-background: #000000;
+--carta-background: #00000087;
+--background-scrollbar-other: #00000000;
+--background-tres: #181818;
+--disabled-background-mine: #181818;
+--secondary-button-background-ches: rgb(38 38 38 / 0.2);
+--positive-background: #1f3520;
+--secondary-button-background-floating: #1b74e4;
+--card-background-flat: #323436;
+--border-fot: 1px solid #3e404254;
+--background-scrollbar-uno: #00000000;
+--card-background-inste: #00000078;
+--comment-background-dos: rgba(255,255,255,.1);
+--background-scrollbar-slide: #00000000;
+--wash: #191919;
+--secondary-floating: #ffffff;
+--comment-background-tres: #000000;
+--messenger-card-background: #000000;
+--always-foot: #1b74e4;
+--surface-background-down: #000000;
+--window-border: 1px solid #4242425c;
+--comment-background-seven: black;
+--branch-border-bottom: 1px solid #5e5e5e3d;
+--background-deemphasized: rgba(255,255,255,0.1);
+--primary-deemphasized-button-background: rgba(45, 136, 255, 0.2);
+--overlay-alpha-80: rgb(0 0 0 / 46%);
+--shadow-inset: rgb(98 98 98 / 0.27);
+--filter-primary-icon: invert(89%) sepia(6%) hue-rotate(185deg);
+}
+.__fb-dark-mode {
+--card-background: #000;
+--web-wash: #000000;
+--nav-bar-background: #0000007a;
+--surface-background: #00000000;
+--card-background-dos: #0000009e;
+--secondary-button-text: #e4e6eb;
+--cometa-background: #000000;
+--background-tres: #181818;
+--disabled-background-mine: #181818;
+--background-scrollbar-other: #00000000;
+--comment-background: #151515;
+--comment-background-dos: rgba(255,255,255,.1);
+--background-scrollbar-uno: #00000000;
+--secondary-button-background-ches: rgb(38 38 38 / 0.2);
+--messenger-card-background: #000000;
+--carta-background: #00000087;
+--surface-background-down: #000000;
+--background-scrollbar-slide: #00000000;
+--secondary-floating: #ffffff;
+--always-foot: #1b74e4;
+--wash: #191919;
+--card-background-inste: #00000078;
+--secondary-button-background-floating: #1b74e4;
+--footer-branch: #181818bf;
+--window-border: 1px solid #4242425c;
+--comment-background-seven: black;
+--branch-border-bottom: 1px solid #5e5e5e3d;
+--comment-background-tres: #000000;
+--popover-background: #181818c2;
+--divider: #3030308c;
+--border-fot: 1px solid #3e404254;
+--overlay-alpha-80: rgb(0 0 0 / 46%);
+--shadow-inset: rgb(98 98 98 / 0.27);
+}
+
+.lq5mtui6 {
+    background-color: var(--nav-bar-background);
+    backdrop-filter: blur(27px) !important;
+}
+.k0kqjr44 {
+    background-color: var(--card-background-dos);
+    backdrop-filter: blur(15px) !important;
+}
+.k0kqjr44.kpwa50dg.ta68dy8c.bdao358l.alzwoclg.cqf1kptm.cgu29s5g.g0p21ltk {
+    background-color: var(--background-tres);
+}
+.oab4agdp {
+    border: var(--border-fot);
+}
+label.icdlwmnq.o9w3sbdw.f92fqwvt.cavyzvzu.bbgqxxx1.j4vk3mq5.bdao358l.alzwoclg.nd5c72wq.om3e55n1.mfclru0v.c8dj4xom.kgnml90y {
+    background-color: var(--comment-background-dos);
+}
+.qi72231t.n3hqoq4p.r86q59rh.b3qcqh3k.fq87ekyn.fsf7x5fv.s5oniofx.m8h3af8h.l7ghb35v.kjdc1dyq.kmwttqpk.cr00lzj9.rn8ck1ys.s3jn8y49.o9erhkwx.dzqi5evh.hupbnkgi.hvb2xoa8.f14ij5to.icdlwmnq.i85zmo3j.kgnml90y.qmq97l1r.a0l1bmwx.t7fmq4m5.icofjuql.s9ok87oh.s9ljgwtm.lxqftegz.bf1zulr9.frfouenu.bonavkto.scpwgmsl.r7bn319e.bdao358l.alzwoclg.jl2a5g8c.t5n4vrf6.t7tf60rq.rj2hsocd.r227ecj6.gt60zsk1.s1m0hq7j.om3e55n1.l3ldwz01 {
+    background-color: var(--comment-background-tres);
+}
+.oyd5i3gg {
+    backdrop-filter: blur(27px) !important;
+}
+.qi72231t.n3hqoq4p.r86q59rh.b3qcqh3k.fq87ekyn.fsf7x5fv.s5oniofx.m8h3af8h.l7ghb35v.kjdc1dyq.kmwttqpk.cr00lzj9.rn8ck1ys.s3jn8y49.f14ij5to.l3ldwz01.icdlwmnq.i85zmo3j.qmqpeqxj.e7u6y3za.qwcclf47.nmlomj2f.frfouenu.bonavkto.djs4p424.r7bn319e.bdao358l.alzwoclg.jcxyg2ei.srn514ro.oxkhqvkx.rl78xhln.nch0832m.om3e55n1.ov5gjlzi.l188yfni.oyd5i3gg.e14171v9.rtxb060y {
+    background-color: var(--footer-branch);
+}
+.bdao358l.om3e55n1.g4tp4svg.oab4agdp.g6da2mms.yn3a2qjl.b52o6v01.a96hb305.mfclru0v.lq84ybu9.hf30pyar.ajrax8sr {
+    background-color: var(--surface-background-down);
+}
+.j98654j2 {
+    background-color: var(--overlay-alpha-80);
+    backdrop-filter: blur(12px) !important;
+}
+.kj5i7le4 {
+    border: var(--window-border);
+}
+.om3e55n1.gt60zsk1.ez8dtbzv.r227ecj6.g4qalytl.sl27f92c.jl2a5g8c.fhfp1cgp.alzwoclg.js4msrqk.iwso50tu.a05blw6y.kgnml90y.i85zmo3j {
+    background-color: var(--comment-background-seven);
+    border-bottom: var(--branch-border-bottom);
+}
+body::-webkit-scrollbar {
+    width: 16px;
+}
+body:not([no-y-overflow])::-webkit-scrollbar-thumb {
+    height: 36px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: #b5b2b5;
+}
+body::-webkit-scrollbar-thumb {
+    height: 36px;
+    border-radius: 8px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+    background-color: hsl(0,0%,67%);
+}
+.lq84ybu9::-webkit-scrollbar {
+    background-color: var(--background-scrollbar-uno);
+    width: 0px;
+}
+._2znk {
+    background: var(--card-background-inste, #FFFFFF);
+}
+.kgnml90y.mfycix9x.om3e55n1.l3ldwz01 {
+    background-color: var(--commeta-background);
+}
+.om3e55n1.g4tp4svg.alzwoclg.jez8cy9q.jcxyg2ei.i85zmo3j.sr926ui1.jl2a5g8c.k7n6ui8p.b41d885q.hmqrhxox.got7tec9.frfouenu.bonavkto.djs4p424.r7bn319e.bdao358l.aesu6q9g.e4ay1f3w.ha4g5oo5.__fb-light-mode.ed17d2qt {
+    background-color: var(--always-foot);
+}
+.alzwoclg.cqf1kptm.qa07fe1s.fawcizw8.ho96iqd2.mqmwp7yo {
+    background-color: var(--carta-background);
+}
+.qi72231t.tav9wjvu.flwp5yud.tghlliq5.gkg15gwv.s9ok87oh.s9ljgwtm.lxqftegz.bf1zulr9.frfouenu.bonavkto.djs4p424.r7bn319e.bdao358l.fsf7x5fv.tgm57n0e.jez8cy9q.s5oniofx.m8h3af8h.l7ghb35v.kjdc1dyq.kmwttqpk.dnr7xe2t.aeinzg81.srn514ro.oxkhqvkx.rl78xhln.nch0832m.om3e55n1.cr00lzj9.rn8ck1ys.s3jn8y49.g4tp4svg.jl2a5g8c.f14ij5to.l3ldwz01.icdlwmnq.alzwoclg.i85zmo3j.jcxyg2ei.bis24fgy.nq2b4knc.lpmxukf2.a3a6voys.qmqpeqxj.e7u6y3za.qwcclf47.nmlomj2f {
+    background-color: var(--secondary-floating);
+}
+.om3e55n1.g4tp4svg.alzwoclg.jez8cy9q.jcxyg2ei.i85zmo3j.sr926ui1.jl2a5g8c.k7n6ui8p.b41d885q.hmqrhxox.got7tec9.frfouenu.bonavkto.djs4p424.r7bn319e.bdao358l.a5wdgl2o.ed17d2qt.r227ecj6.gt60zsk1 {
+    background-color: var(--secondary-button-background-ches);
+}
+.om3e55n1.b0ur3jhr.cgu29s5g.mm05nxu8::-webkit-scrollbar {
+    background-color: var(--background-scrollbar-slide);
+}
+.om3e55n1.g4tp4svg.alzwoclg.jez8cy9q.jcxyg2ei.i85zmo3j.sr926ui1.jl2a5g8c.k7n6ui8p.b41d885q.hmqrhxox.got7tec9.frfouenu.bonavkto.djs4p424.r7bn319e.bdao358l.aesu6q9g.e4ay1f3w.f2j0lvsc.ed17d2qt {
+    background-color: var(--disabled-background-mine);
+}
+.oab4agdp.z6erz7xo.nfkogyam.ikduhi8d.mm05nxu8.khm9p5p9.cofpoq2j.sdu1flz4::-webkit-scrollbar {
+    background-color: var(--background-scrollbar-other);
+}
+.x6s0dn4 .x78zum5 .xl56j7k .xmz0i5r .x1n2onr6{
+    border-radius: 8px
+}
+img, video{
+    border-radius: 10px
+}
+}
