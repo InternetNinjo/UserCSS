@@ -1,0 +1,97 @@
+/* ==UserStyle==
+@name         GameDrive Amoled Theme
+@namespace    https://github.com/InternetNinjo/UserCSS
+@version      2.0.0
+@description  Just an Amoled Modification of famous GameDrive.org site.
+@author       InternetNinja
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document domain("gamedrive.org") {
+  .gridlove-header-top {
+    display: none !important;
+  }
+  body {
+    background-color: #000;
+  }
+
+  .gridlove-header-wrapper, 
+  .gridlove-header-middle .sub-menu, 
+  .gridlove-header-responsive, 
+  .gridlove-header-responsive .sub-menu {
+    background-color: #000;
+  }
+
+  .gridlove-header-sticky {
+    background: transparent;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid transparent;
+  }
+
+  /* No blur when at top of page */
+  body:not(.scrolled) .gridlove-header-sticky {
+    background: rgba(0, 0, 0, .5);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    transition: none !important;
+    transform: none !important;
+  }
+
+  /* Blur effect when scrolled */
+  body.scrolled .gridlove-header-sticky {
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .gridlove-site-header {
+    position: static !important;
+    top: auto !important;
+  }
+
+  /* Alternative more aggressive approach */
+  body.gridlove-v_2_1_2 .gridlove-site-header {
+    position: relative !important;
+    transform: none !important;
+  }
+
+  #header.gridlove-site-header {
+    position: static !important;
+    top: 0 !important;
+  }
+
+  .gridlove-header-sticky-on,
+  .gridlove-site-header {
+    position: relative !important;
+    top: 0 !important;
+  }
+
+  .gridlove-cover-area {
+    background: #000;
+  }
+
+  .gridlove-sidebar-action-wrapper {
+    background: #000;
+  }
+
+  .gridlove-action-close {
+    background: #000;
+  }
+
+  .gridlove-highlight {
+    background: #000;
+  }
+
+  .gridlove-header-sticky .sub-menu {
+    background: rgba(0, 0, 0, .5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  ::placeholder {
+    color: rgb(0, 0, 0);
+  }
+}
